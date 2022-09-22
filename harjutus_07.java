@@ -9,9 +9,9 @@ public class harjutus_07 {
 	
 			Scanner scanner = new Scanner (System.in); 
 		try {
-			System.out.println("Sisesta arv1:");
+			System.out.println("Sisesta arv: ");
 			int arv1 = scanner.nextInt();
-			System.out.println("Sisesta arv2:");
+			System.out.println("Sisesta arv: " );
 			int arv2 = scanner.nextInt();
 			
 			int s = arv1/arv2;

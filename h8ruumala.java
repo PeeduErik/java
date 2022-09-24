@@ -8,7 +8,7 @@ public class h8ruumala {
 		return s;
 	}
 	
-	public static double ristkylikS(String l, String h,String w) {
+	public static double seen(String l, String h,String w) {
 		float pikkus = Float.parseFloat(l);
 		float korgus = Float.parseFloat(h);
 		float alus = Float.parseFloat(w);

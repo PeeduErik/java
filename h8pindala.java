@@ -9,7 +9,7 @@ public class h8pindala {
 		return s;
 	}
 	
-	public static double ristkylikS(String a, String h) {
+	public static double seen(String a, String h) {
 		float alus = Float.parseFloat(a);
 		float korgus = Float.parseFloat(h);
 		double s = alus * korgus;

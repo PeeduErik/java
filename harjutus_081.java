@@ -29,7 +29,7 @@ public static void main(String[] args) {
 			alus = scanner.next();
 			System.out.print("Sisesta kõrgus: ");
 			korgus = scanner.next();
-			s = h8pindala.ristkylikS(alus, korgus);
+			s = h8pindala.seen(alus, korgus);
 			System.out.printf("Ristküliku pindala on "+s);
 			break;
 		case 3:
@@ -45,7 +45,7 @@ public static void main(String[] args) {
 			korgus = scanner.next();
 			System.out.print("Sisesta pikkus: ");
 			pikkus = scanner.next();
-			s = h8ruumala.ristkylikS(alus,korgus,pikkus);
+			s = h8ruumala.seen(alus,korgus,pikkus);
 			System.out.printf("Ristküliku pindala on "+s);
 			break;
 

@@ -1,3 +1,5 @@
+//Peedu Erik Pajo IT21
+
 package ül;
 import java.util.Scanner;
 public class KT13 {
